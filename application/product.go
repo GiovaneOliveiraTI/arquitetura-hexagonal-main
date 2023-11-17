@@ -11,7 +11,7 @@ func init() {
 }
 
 type ProductInterface interface {
-	Isvalid() (bool, error)
+	IsValid() (bool, error)
 	Enable() error
 	Disable() error
 	GetId() string
@@ -21,7 +21,7 @@ type ProductInterface interface {
 }
 
 type ProductServiceInterface interface {
-	get(id string) (ProductInterface, error)
+	Get(id string) (ProductInterface, error)
 	Create(name string, price float64) (ProductInterface, error)
 	Enable(product ProductInterface) (ProductInterface, error)
 	Disable(product ProductInterface) (ProductInterface, error)
@@ -60,7 +60,7 @@ func NewProduct() *Product {
 	return &product
 }
 
-func (p *Product) Isvalid() (bool, error) {
+func (p *Product) IsValid() (bool, error) {
 	if p.Status == "" {
 		p.Status = DISABLED
 	}
@@ -93,9 +93,8 @@ func (p *Product) Disable() error {
 	return errors.New("the price must be zero in order to have the product disabled")
 }
 
-func (p *Product) GetID() string {
+func (p *Product) GetId() string {
 	return p.ID
-
 }
 
 func (p *Product) GetName() string {
