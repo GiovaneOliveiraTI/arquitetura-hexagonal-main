@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f00067f1-728f-4508-b8ce-e8c5ea8cd4bb" name="Changes" comment="Preparando o banco de dados em memoria sqlite3">
+    <list default="true" id="f00067f1-728f-4508-b8ce-e8c5ea8cd4bb" name="Changes" comment="primeiro teste do metodo get usando o banco sqlite3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapters/db/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapters/db/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/db/product_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapters/db/product_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/Product_Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/application/Product_Service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlte3.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,37 +60,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Giovane/OneDrive/Documentos/Cursos/ArquiteturaHexagonal/arquitetura-hexagonal-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "go",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Giovane/OneDrive/Documentos/Cursos/ArquiteturaHexagonal/arquitetura-hexagonal-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Go Test.TestProductDb_Get in github.com/codeedu/go-hexagonal/adapters/db (1)">
     <configuration name="TestProductDb_Get in github.com/codeedu/go-hexagonal/adapters/db (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="arquitetura-hexagonal-main" />
+      <working_directory value="$PROJECT_DIR$/adapters/db" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/codeedu/go-hexagonal/adapters/db" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestProductDb_Get\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestProductDb_Get in github.com/codeedu/go-hexagonal/adapters/db (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="arquitetura-hexagonal-main" />
       <working_directory value="$PROJECT_DIR$/adapters/db" />
       <root_directory value="$PROJECT_DIR$" />
@@ -115,39 +126,26 @@
       <pattern value="^\QTestProductDb_Get\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductService_Create in github.com/codeedu/go-hexagonal/application" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/codeedu/go-hexagonal/adapters/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="arquitetura-hexagonal-main" />
-      <working_directory value="$PROJECT_DIR$/application" />
+      <working_directory value="$PROJECT_DIR$/adapters/db" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/codeedu/go-hexagonal/application" />
+      <package value="github.com/codeedu/go-hexagonal/adapters/db" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestProductService_Create\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductService_Get in github.com/codeedu/go-hexagonal/application" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="gobench github.com/codeedu/go-hexagonal/adapters/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="arquitetura-hexagonal-main" />
-      <working_directory value="$PROJECT_DIR$/application" />
+      <working_directory value="$PROJECT_DIR$/adapters/db" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/codeedu/go-hexagonal/application" />
+      <package value="github.com/codeedu/go-hexagonal/adapters/db" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestProductService_Get\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/codeedu/go-hexagonal/application (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="arquitetura-hexagonal-main" />
-      <working_directory value="$PROJECT_DIR$/application" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/codeedu/go-hexagonal/application" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <framework value="gobench" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
@@ -166,9 +164,9 @@
       <list>
         <item itemvalue="Go Test.TestProductDb_Get in github.com/codeedu/go-hexagonal/adapters/db (1)" />
         <item itemvalue="Go Test.TestProductDb_Get in github.com/codeedu/go-hexagonal/adapters/db" />
-        <item itemvalue="Go Test.go test github.com/codeedu/go-hexagonal/application (1)" />
-        <item itemvalue="Go Test.TestProductService_Create in github.com/codeedu/go-hexagonal/application" />
-        <item itemvalue="Go Test.TestProductService_Get in github.com/codeedu/go-hexagonal/application" />
+        <item itemvalue="Go Test.gobench github.com/codeedu/go-hexagonal/adapters/db" />
+        <item itemvalue="Go Test.go test github.com/codeedu/go-hexagonal/adapters/db" />
+        <item itemvalue="Go Test.TestProductDb_Get in github.com/codeedu/go-hexagonal/adapters/db (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +201,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit initial Go" />
     <MESSAGE value="Validando primeiro teste em go." />
@@ -213,7 +215,8 @@
     <MESSAGE value="classe gerada pelo gomock" />
     <MESSAGE value="Criando estrutura de adapters" />
     <MESSAGE value="Preparando o banco de dados em memoria sqlite3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparando o banco de dados em memoria sqlite3" />
+    <MESSAGE value="primeiro teste do metodo get usando o banco sqlite3" />
+    <option name="LAST_COMMIT_MESSAGE" value="primeiro teste do metodo get usando o banco sqlite3" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -225,11 +228,6 @@
           <url>file://$PROJECT_DIR$/application/product.go</url>
           <line>95</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/adapters/db/product_test.go</url>
-          <line>13</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
