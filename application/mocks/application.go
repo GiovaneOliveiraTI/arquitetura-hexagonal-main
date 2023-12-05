@@ -202,18 +202,18 @@ func (mr *MockProductServiceInterfaceMockRecorder) Enable(product interface{}) *
 }
 
 // get mocks base method.
-func (m *MockProductServiceInterface) get(id string) (application.ProductInterface, error) {
+func (m *MockProductServiceInterface) Get(id string) (application.ProductInterface, error) {
 	m.ctrl.T.Helper()
-	ret := m.ctrl.Call(m, "get", id)
+	ret := m.ctrl.Call(m, "Get", id)
 	ret0, _ := ret[0].(application.ProductInterface)
 	ret1, _ := ret[1].(error)
 	return ret0, ret1
 }
 
 // get indicates an expected call of get.
-func (mr *MockProductServiceInterfaceMockRecorder) get(id interface{}) *gomock.Call {
+func (mr *MockProductServiceInterfaceMockRecorder) Get(id interface{}) *gomock.Call {
 	mr.mock.ctrl.T.Helper()
-	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "get", reflect.TypeOf((*MockProductServiceInterface)(nil).get), id)
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Get", reflect.TypeOf((*MockProductServiceInterface)(nil).Get), id)
 }
 
 // MockProductReader is a mock of ProductReader interface.
